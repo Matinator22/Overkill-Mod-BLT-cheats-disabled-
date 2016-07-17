@@ -1,0 +1,278 @@
+{
+	"name" : "Overkill Mod",
+	"description" : "Code snippets by OVERKILL's favorite modders and members of UnKnoWnCheaTs.",
+	"author" : "OVERKILL\n         \n         \"I'm your dream, make you real.\"\n         \"Now introducing a new safe, schrödinger. Add some uncertainty in your life!\"\n         \"We're either really stupid, or really evil.\"\n         ",
+	"contact" : "http://steamcommunity.com/app/218620",
+	"version" : "2.2 (Crafted with love and care by Bflat)\n         \"The OVERKILL jokes are just in jest. Enjoy!\""
+	"hooks" : [
+		{
+			"hook_id" : "lib/entry", 
+			"script_path" : "post/core.lua"
+		},
+		{
+			"hook_id" : "lib/tweak_data", 
+			"script_path" : "post/core.lua"
+		},
+		{
+			"hook_id" : "lib/managers/menumanager", 
+			"script_path" : "global/menu/config.lua"
+		},
+		{
+			"hook_id" : "lib/managers/menumanager", 
+			"script_path" : "post/core.lua"
+		},
+		{
+			"hook_id" : "lib/managers/hudmanagerpd2", 
+			"script_path" : "post/core.lua"
+		},
+		{
+			"hook_id" : "lib/managers/hud/hudteammate", 
+			"script_path" : "post/core.lua"
+		},
+		{
+			"hook_id" : "lib/units/weapons/raycastweaponbase", 
+			"script_path" : "post/core.lua"
+		},
+		{
+			"hook_id" : "lib/units/weapons/sawweaponbase", 
+			"script_path" : "post/core.lua"
+		},
+		{
+			"hook_id" : "lib/units/weapons/trip_mine/TripMineBase", 
+			"script_path" : "post/core.lua"
+		},
+		{
+			"hook_id" : "lib/units/equipment/sentry_gun/sentrygunbrain", 
+			"script_path" : "post/core.lua"
+		},
+		{
+			"hook_id" : "lib/units/weapons/sentrygunweapon", 
+			"script_path" : "post/core.lua"
+		},
+		{
+			"hook_id" : "lib/units/beings/player/states/PlayerMaskOff", 
+			"script_path" : "post/maskup.lua"
+		},
+		{
+			"hook_id" : "lib/units/beings/player/states/PlayerCivilian", 
+			"script_path" : "post/potential.lua"
+		},
+		{
+			"hook_id" : "lib/units/beings/player/states/PlayerStandard", 
+			"script_path" : "post/kinetic.lua"
+		},
+		{
+			"hook_id" : "lib/tweak_data/skilltreetweakdata", 
+			"script_path" : "post/unlockskills.lua"
+		},
+		{
+			"hook_id" : "lib/tweak_data/weapontweakdata", 
+			"script_path" : "post/weapondata.lua"
+		},
+		{
+			"hook_id" : "lib/tweak_data/playertweakdata", 
+			"script_path" : "post/playerdata.lua"
+		},
+		{
+			"hook_id" : "lib/tweak_data/guitweakdata", 
+			"script_path" : "post/casino.lua"
+		},
+		{
+			"hook_id" : "lib/managers/chatmanager", 
+			"script_path" : "post/chatfilter.lua"
+		},
+		{
+			"hook_id" : "lib/managers/dialogmanager", 
+			"script_path" : "post/transmission.lua"
+		}
+	],
+
+	"persist_scripts" : [
+		{
+			"global" : "backuper",
+			"script_path" : "global/origbackuper.lua"
+		},
+		{
+			"global" : "axiom",
+			"script_path" : "global/axiom.lua"
+		},
+		{
+			"global" : "ovk",
+			"script_path" : "global/init.lua"
+		}
+	],
+
+	"keybinds" : [
+		{
+			"keybind_id" : "ovk_apple",
+			"name" : "APPLE",
+			"description" : "SWITCHES OVK MOD FEATURES [ON/OFF]. IN ORDER TO USE THE OVERKILL MOD, THIS HAS TO BE TURNED ON."
+			"script_path" : "script/_apple.lua",
+			"run_in_menu" : true,
+			"run_in_game" : true,
+			"localized" : false
+		},
+		{
+			"keybind_id" : "ovk_menu",
+			"name" : "CORE MENU",
+			"description" : "CORE MENU PROVIDES TOGGLABLE ABILITIES, MUNITION OPTIONS, MISSION SETTINGS, DRILL CONTROLS, OBJECT INTERACTIONS, AND CAMERA ACCESS."
+			"script_path" : "script/_ovk_core.lua",
+			"run_in_menu" : true,
+			"run_in_game" : true,
+			"localized" : false
+		},
+		{
+			"keybind_id" : "ovk_extra",
+			"name" : "EXTRA MENU",
+			"description" : "AN EXTENSION OF THE CORE MENU. EXTRA MENU MANAGES TEAM OPTIONS, JAIL OPTIONS, MAP OPTIONS, LOGIC OPTIONS, AND SOUND FUNCTIONS."
+			"script_path" : "script/_ovk_extra.lua",
+			"run_in_menu" : true,
+			"run_in_game" : true,
+			"localized" : false
+		},
+		{
+			"keybind_id" : "ovk_inventory",
+			"name" : "INVENTORY MENU",
+			"description" : "INVENTORY MENU PROVIDES MASKS, MISSION ITEMS, AND EQUIPMENT USAGE."
+			"script_path" : "script/_ovk_inventory.lua",
+			"run_in_menu" : true,
+			"run_in_game" : true,
+			"localized" : false
+		},
+		{
+			"keybind_id" : "ovk_money",
+			"name" : "MONEY MENU",
+			"description" : "OVERKILL MONEY MENU (AKA PANTYDROPPER) THAT ADDS AND REMOVES MONEY."
+			"script_path" : "script/_ovk_money.lua",
+			"run_in_menu" : true,
+			"run_in_game" : true,
+			"localized" : false
+		},
+		{
+			"keybind_id" : "ovk_content",
+			"name" : "CONTENT",
+			"description" : "HELP MENU THAT LISTS THE TABLE OF CONTENTS. TURNING [ON/OFF] APPLE WILL DISPLAY A DIFFERENT MENU."
+			"script_path" : "script/content.lua",
+			"run_in_menu" : true,
+			"run_in_game" : true,
+			"localized" : false
+		},
+		{
+			"keybind_id" : "ovk_contract",
+			"name" : "CONTRACT",
+			"description" : "OVERKILL JOB MENU THAT PLACES CONTRACTS ON THE CRIME.NET GRID."
+			"script_path" : "script/contract.lua",
+			"run_in_menu" : true,
+			"run_in_game" : false,
+			"localized" : false
+		},
+		{
+			"keybind_id" : "ovk_hudset",
+			"name" : "HUDSET",
+			"description" : "TOGGLE THAT CHANGES THE HUD BETWEEN CLEAN AND DEFAULT."
+			"script_path" : "script/hudset.lua",
+			"run_in_menu" : false,
+			"run_in_game" : true,
+			"localized" : false
+		},
+		{
+			"keybind_id" : "ovk_chatex",
+			"name" : "CHATEX",
+			"description" : "TOGGLE THAT EXPANDS AND UNEXPANDS THE CHATBOX."
+			"script_path" : "script/chatex.lua",
+			"run_in_menu" : false,
+			"run_in_game" : true,
+			"localized" : false
+		},
+		{
+			"keybind_id" : "ovk_data",
+			"name" : "DATA",
+			"description" : "TOGGLE THAT PRINTS MISSION DATA (INTERACT ITEMS & ELEMENTS). SAVED IN THE MISSION/DATA FOLDER."
+			"script_path" : "script/data.lua",
+			"run_in_menu" : false,
+			"run_in_game" : true,
+			"localized" : false
+		},
+		{
+			"keybind_id" : "ovk_dialog",
+			"name" : "DIALOG",
+			"description" : "TOGGLE THAT PRINTS AND DISPLAYS BAIN'S DIALOG. SAVED IN THE MISSION FOLDER."
+			"script_path" : "script/dialog.lua",
+			"run_in_menu" : false,
+			"run_in_game" : true,
+			"localized" : false
+		},
+		{
+			"keybind_id" : "ovk_xray",
+			"name" : "XRAY",
+			"description" : "TOGGLE THAT DISPLAYS ENEMY, CIVILIAN, AND ESSENTIAL UNITS ON THE MAP."
+			"script_path" : "script/xray.lua",
+			"run_in_menu" : false,
+			"run_in_game" : true,
+			"localized" : false
+		},
+		{
+			"keybind_id" : "ovk_slowmo",
+			"name" : "SLOW MOTION",
+			"description" : "TOGGLES SLOW MOTION."
+			"script_path" : "script/slowmo.lua",
+			"run_in_menu" : false,
+			"run_in_game" : true,
+			"localized" : false
+		},
+		{
+			"keybind_id" : "ovk_waypoint",
+			"name" : "WAYPOINT",
+			"description" : "MULTI-STATE TOGGLE THAT REVEALS OBJECTIVES AND INTERACTABLES ON THE MAP."
+			"script_path" : "script/waypoint.lua",
+			"run_in_menu" : false,
+			"run_in_game" : true,
+			"localized" : false
+		},
+		{
+			"keybind_id" : "ovk_probability",
+			"name" : "PROBABILITY AMMO",
+			"description" : "TOGGLES INFINITE AMMO THAT RETURNS % AMMO BASED ON PROBABILITY. RETURNS % AMMO BACK."
+			"script_path" : "script/probammo.lua",
+			"run_in_menu" : false,
+			"run_in_game" : true,
+			"localized" : false
+		},
+		{
+			"keybind_id" : "ovk_time",
+			"name" : "TIME BUTTON",
+			"description" : "EXPERIMENTAL TIME BUTTON. PRESS ONCE TO SAVE POINT, NEXT PRESS WILL SEND YOU BACK."
+			"script_path" : "script/timebutton.lua",
+			"run_in_menu" : false,
+			"run_in_game" : true,
+			"localized" : false
+		},
+		{
+			"keybind_id" : "ovk_test",
+			"name" : "TEST",
+			"description" : "BLANK SCRIPT SET TO YOUR CHOSEN KEYBIND, USEFUL FOR TESTING SCRIPTS."
+			"script_path" : "script/test.lua",
+			"run_in_menu" : true,
+			"run_in_game" : true,
+			"localized" : false
+		},
+		{
+			"keybind_id" : "ovk_test2",
+			"name" : "TEST2",
+			"description" : "BLANK SCRIPT SET TO YOUR CHOSEN KEYBIND, USEFUL FOR TESTING SCRIPTS."
+			"script_path" : "script/test2.lua",
+			"run_in_menu" : true,
+			"run_in_game" : true,
+			"localized" : false
+		},
+		{
+			"keybind_id" : "ovk_test3",
+			"name" : "TEST3",
+			"description" : "BLANK SCRIPT SET TO YOUR CHOSEN KEYBIND, USEFUL FOR TESTING SCRIPTS."
+			"script_path" : "script/test3.lua",
+			"run_in_menu" : true,
+			"run_in_game" : true,
+			"localized" : false
+		}
+	]
+}

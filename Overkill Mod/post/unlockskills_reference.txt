@@ -1,0 +1,453 @@
+--[[
+-----------------------------
+-- THE BIG REFERENCE GUIDE --
+-- ON PAYDAY 2 SKILLS TREE --
+-----------------------------
+You can find all the skills in 
+/lib/tweak_data/skilltreetweakdata.lua
+https://bitbucket.org/YaPh1l/payday-2-lua
+--------------------
+-- LOW BLOW NOTES --
+--------------------
+3 or 4 detection risk for the maximum bonuses of +10% dodge and +30% critical chances.
+5 to 7 detection risk, you will get +9% dodge, 27% critical chances.
+8 to 10 detection risk = +8 dodge, 24 critical.
+11 to 13 detection risk = +7 dodge, 21 critical.
+14 to 16 detection risk = +6 dodge, 18 critical.
+17 to 20 detection risk = +5 dodge, 15 critical.
+21 to 23 detection risk = +4 dodge, 12 critical.
+24 to 27 detection risk = +3 dodge, 9 critical.
+28 to 30 detection risk = +2 dodge, 6 critical.
+31 to 34 detection risk = +1 dodge, 3 critical.
+
+------------------
+--- MASTERMIND ---
+------------------
+-- MASTERMIND TIER 1
+"MASTERMIND UNLOCKER"
+BASIC - "doctor_bag"
+
+"CABLE GUY"
+BASIC - "cable_tie_interact_speed_multiplier"
+ACED - "cable_tie_quantity"
+
+"COMBAT MEDIC"
+BASIC - "temporary_combat_medic_damage_multiplier1"
+ACED - "player_revive_health_boost"
+
+"ENDURANCE"
+BASIC - "player_stamina_multiplier"
+ACED - "team_stamina_multiplier"
+
+-- MASTERMIND TIER 2
+"CONTROL FREAK"
+BASIC - "player_civ_calming_alerts", "player_civ_intimidation_mul"
+ACED - "player_additional_assets"
+
+"PAIN KILLERS"
+BASIC - "player_revive_damage_reduction_level_1"
+ACED - "player_revive_damage_reduction_level_2"
+
+"LEADERSHIP"
+BASIC - "team_pistol_recoil_index_addend", "team_akimbo_recoil_index_addend", "team_pistol_suppression_recoil_index_addend", "team_akimbo_suppression_recoil_index_addend" 
+ACED - "team_weapon_recoil_index_addend", "team_weapon_suppression_recoil_index_addend"
+
+-- MASTERMIND TIER 3
+"SPOTTER"
+BASIC - "player_marked_enemy_extra_damage"
+ACED - "player_buy_spotter_asset"
+
+"EQUILIBRIUM"
+BASIC - "pistol_spread_index_addend", "pistol_swap_speed_multiplier", "akimbo_spread_index_addend", "akimbo_swap_speed_multiplier"
+ACED - "pistol_fire_rate_multiplier", "akimbo_fire_rate_multiplier"
+
+"DOMINATOR"
+BASIC - "player_intimidate_enemies"
+ACED - "player_intimidate_range_mul", "player_intimidate_aura"
+
+-- MASTERMIND TIER 4
+"STOCKHOLM SYNDROME"
+BASIC - "player_civilian_reviver"
+ACED - "player_civilian_gives_ammo"
+
+"COMBAT DOCTOR"
+BASIC - "doctor_bag_quantity"
+ACED - "doctor_bag_amount_increase1"
+
+"JOKER" [PREREQUISITE 'DOMINATOR']
+BASIC - "player_convert_enemies", "player_convert_enemies_max_minions_1"
+ACED - "player_convert_enemies_health_multiplier", "player_convert_enemies_damage_multiplier", "player_convert_enemies_interaction_speed_multiplier"}
+
+-- MASTERMIND TIER 5
+"KILMER"
+BASIC - "assault_rifle_reload_speed_multiplier", "snp_reload_speed_multiplier"
+ACED - "assault_rifle_move_spread_index_addend", "player_run_and_reload", "snp_move_spread_index_addend"
+
+"GUNSLINGER"
+BASIC - "pistol_reload_speed_multiplier", "akimbo_reload_speed_multiplier"
+ACED - "akimbo_damage_addend", "pistol_damage_multiplier"
+
+"PARTNER IN CRIME" [PREREQUISITE 'JOKER']
+BASIC - "player_minion_master_speed_multiplier", "player_passive_convert_enemies_health_multiplier_1"
+ACED - "player_minion_master_health_multiplier", "player_passive_convert_enemies_health_multiplier_2"
+
+-- MASTERMIND TIER 6
+"HOSTAGE TAKER"
+BASIC - "player_hostage_health_regen_addend_1"
+ACED - "player_hostage_health_regen_addend_2"
+
+"PISTOL MESSIAH"
+BASIC - "player_pistol_revive_from_bleed_out_1"
+ACED - "player_pistol_revive_from_bleed_out_2"
+
+"INSPIRE"
+BASIC - "player_revive_interaction_speed_multiplier", "player_morale_boost"
+ACED - "player_long_dis_revive"
+
+--------------
+-- ENFORCER --
+--------------
+-- ENFORCER TIER 1
+"ENFORCER UNLOCKER"
+BASIC - "ammo_bag"
+
+"OPPRESSOR"
+BASIC - "player_suppression_bonus"
+ACED - "player_suppression_mul_2"
+
+"BULLET STORM"
+BASIC - "temporary_no_ammo_cost_1"
+ACED - "temporary_no_ammo_cost_2"
+
+"TRANSPORTER"
+BASIC - "carry_movement_speed_multiplier"
+ACED - "carry_throw_distance_multiplier"
+
+-- ENFORCER TIER 2
+"DIE HARD"
+BASIC - "player_primary_weapon_when_downed"
+ACED - "player_armor_regen_timer_multiplier"
+
+"UNDERDOG"
+BASIC - "player_damage_multiplier_outnumbered"
+ACED - "player_damage_dampener_outnumbered"
+
+"PUMPING IRON"
+BASIC - "player_non_special_melee_multiplier"
+ACED - "player_melee_damage_multiplier"
+
+-- ENFORCER TIER 3
+"SHOTGUN IMPACT"
+BASIC - "shotgun_recoil_index_addend"
+ACED - "shotgun_damage_multiplier"
+
+"STUN RESISTANCE"
+BASIC - "player_flashbang_multiplier_1"
+ACED - "player_flashbang_multiplier_2"
+
+"TOUGH GUY"
+BASIC - "player_damage_shake_multiplier"
+ACED - "player_bleed_out_health_multiplier"
+
+-- ENFORCER TIER 4
+"SHOTGUN CQB"
+BASIC - "shotgun_reload_speed_multiplier"
+ACED - "shotgun_enter_steelsight_speed_multiplier"
+
+"AMMO SPECIALIST"
+BASIC - "ammo_bag_quantity"
+ACED - "ammo_bag_ammo_increase1"
+
+"BERSERKER"
+BASIC - "player_melee_damage_health_ratio_multiplier"
+ACED - "player_damage_health_ratio_multiplier"
+
+-- ENFORCER TIER 5
+"HARD BOILED"
+BASIC - "shotgun_hip_fire_spread_index_addend"
+ACED - "weapon_hip_fire_spread_index_addend"
+
+"FULLY LOADED"
+BASIC - "extra_ammo_multiplier1"
+ACED - "player_pick_up_ammo_multiplier", "player_pick_up_ammo_multiplier_2"
+
+"PORTABLE SAW"
+BASIC - "saw"
+ACED - "saw_extra_ammo_multiplier"
+
+-- ENFORCER TIER 6
+"OVERKILL"
+BASIC - "player_overkill_damage_multiplier"
+ACED - "player_overkill_all_weapons"
+
+"IRON MAN"
+BASIC - "body_armor6"
+ACED - "player_shield_knock", "player_run_and_shoot"
+
+"CARBON BLADE" [PREREQUISITE 'PORTABLE SAW']
+BASIC - "player_saw_speed_multiplier_1", "saw_lock_damage_multiplier_1"
+ACED - "player_saw_speed_multiplier_2", "saw_lock_damage_multiplier_2", "saw_enemy_slicer", "saw_secondary"
+
+----------------
+-- TECHNICIAN --
+----------------
+-- TECHNICIAN TIER 1
+"TECHNICIAN UNLOCKER"
+BASIC - "trip_mine"
+
+"RIFLEMAN"
+BASIC - "assault_rifle_enter_steelsight_speed_multiplier", "snp_enter_steelsight_speed_multiplier"
+ACE - "assault_rifle_zoom_increase", "snp_zoom_increase"
+
+"DEMOLITION MAN"
+BASIC - "trip_mine_quantity_increase_1"
+ACED - "player_trip_mine_deploy_time_multiplier"
+
+"NERVES OF STEEL"
+BASIC - "player_interacting_damage_multiplier"
+ACED - "player_steelsight_when_downed"
+
+-- TECHNICIAN TIER 2
+"SHARPSHOOTER"
+BASIC - "weapon_single_spread_index_addend"
+ACED - "assault_rifle_recoil_index_addend", "snp_recoil_index_addend"
+
+"COMBAT ENGINEER"
+BASIC - "trip_mine_can_switch_on_off"
+ACED - "trip_mine_sensor_toggle", "trip_mine_sensor_highlight"
+
+"HARDWARE EXPERT"
+BASIC - "player_drill_fix_interaction_speed_multiplier", "player_trip_mine_deploy_time_multiplier_2"
+ACED - "player_drill_autorepair", "player_sentry_gun_deploy_time_multiplier"
+
+-- TECHNICIAN TIER 3
+"SENTRY GUN"
+BASIC - "sentry_gun"
+ACED - "sentry_gun_armor_multiplier"
+
+"TACTICAL MINES"
+BASIC - "trip_mine_explosion_size_multiplier_1"
+ACED - "trip_mine_marked_enemy_extra_damage"
+
+"DRILL SERGEANT"
+BASIC - "player_drill_speed_multiplier1"
+ACED - "player_drill_speed_multiplier2"
+
+-- TECHNICIAN TIER 4
+"SENTRY TARGETING PACKAGE" [PREREQUISITE 'SENTRY']
+BASIC - "sentry_gun_spread_multiplier"
+ACED - "sentry_gun_rot_speed_multiplier", "sentry_gun_extra_ammo_multiplier_1"
+
+"JACK OF ALL TRADES"
+BASIC - "trip_mine_explosion_size_multiplier_2"
+ACED - "player_carry_sentry_and_trip"
+
+"SILENT DRILLING"
+BASIC - "player_drill_alert"
+ACED - "player_silent_drill"
+
+-- TECHNICIAN TIER 5
+"SENTRY COMBAT UPGRADE" [PREREQUISITE 'SENTRY']
+BASIC - "sentry_gun_can_reload"
+ACED - "sentry_gun_shield"
+
+"SHAPED CHARGE"
+BASIC - "trip_mine_quantity_increase_3"
+ACED - "player_trip_mine_shaped_charge"
+
+"SHOCK PROOF"
+BASIC - "player_taser_malfunction"
+ACED - "player_taser_self_shock"
+
+-- TECHNICIAN TIER 6
+"SENTRY TOWER DEFENSE" [PREREQUISITE 'SENTRY']
+BASIC - "sentry_gun_quantity_increase"
+ACED - "sentry_gun_damage_multiplier"
+
+"MAG PLUS"
+BASIC - "weapon_clip_ammo_increase_1", "akimbo_clip_ammo_increase_1"
+ACED - "weapon_clip_ammo_increase_2", "akimbo_clip_ammo_increase_2"
+
+"BULLETPROOF"
+BASIC - "player_armor_multiplier"
+ACED - "team_armor_regen_time_multiplier"
+
+-----------
+-- GHOST --
+-----------
+-- GHOST TIER 1
+"GHOST UNLOCKER"
+BASIC - "ecm_jammer", "ecm_jammer_affects_cameras"
+
+"DEAD PRESIDENTS"
+BASIC - "player_small_loot_multiplier1"
+ACED - "player_small_loot_multiplier2"
+
+"SPRINTER"
+BASIC - "player_stamina_regen_timer_multiplier", "player_stamina_regen_multiplier"
+ACED - "player_run_dodge_chance", "player_run_speed_multiplier"
+
+"CAT BURGLAR"
+BASIC - "player_fall_damage_multiplier"
+ACED - "player_fall_health_damage_multiplier", "player_respawn_time_multiplier"
+
+-- GHOST TIER 2
+"FAST HANDS"
+BASIC - "carry_interact_speed_multiplier_1"
+ACED - "carry_interact_speed_multiplier_2"
+
+"CHAMELEON"
+BASIC - "player_suspicion_bonus", "player_sec_camera_highlight_mask_off", "player_special_enemy_highlight_mask_off"
+ACED - "player_camouflage_bonus"
+
+"CLEANER"
+BASIC - "player_buy_bodybags_asset", "weapon_special_damage_taken_multiplier"
+ACED - "player_corpse_dispose_amount_2"
+
+-- GHOST TIER 3
+"SHINOBI"
+BASIC - "player_walk_speed_multiplier", "player_crouch_speed_multiplier"
+ACED - "player_silent_kill"
+
+"MARTIAL ARTS"
+BASIC - "player_melee_knockdown_mul"
+ACED - "player_melee_damage_dampener"
+
+"SMG SPECIALIST"
+BASIC - "smg_reload_speed_multiplier"
+ACED - "smg_fire_rate_multiplier"
+
+-- GHOST TIER 4
+"NINE LIVES"
+BASIC - "player_additional_lives_1"
+ACED - "player_cheat_death_chance"
+
+"ECM SPECIALIST"
+BASIC - "ecm_jammer_quantity_increase_1"
+ACED - "ecm_jammer_duration_multiplier_2", "ecm_jammer_feedback_duration_boost_2", "ecm_jammer_affects_pagers"
+
+"SILENT KILLER"
+BASIC - "weapon_silencer_damage_multiplier_1"
+ACED - "weapon_silencer_damage_multiplier_2", "weapon_silencer_armor_piercing_chance_1"
+
+-- GHOST TIER 5
+"LOCKPICKING EXPERT"
+BASIC - "player_pick_lock_easy", "player_pick_lock_easy_speed_multiplier"
+ACED - "player_pick_lock_hard", "player_pick_lock_easy_speed_multiplier_2"
+
+"ECM OVERDRIVE"
+BASIC - "ecm_jammer_duration_multiplier"
+ACED - "ecm_jammer_can_open_sec_doors"
+
+"THE PROFESSIONAL"
+BASIC - "weapon_silencer_recoil_index_addend", "weapon_silencer_enter_steelsight_speed_multiplier"
+ACED - "weapon_silencer_spread_index_addend", "weapon_silencer_armor_piercing_chance_2"
+
+-- GHOST TIER 6
+"CAMERA LOOP"
+BASIC - "player_tape_loop_duration_1"
+ACED - "player_tape_loop_duration_2"
+
+"ECM FEEDBACK"
+BASIC - "ecm_jammer_can_activate_feedback"
+ACED - "ecm_jammer_feedback_duration_boost", "ecm_jammer_interaction_speed_multiplier", "ecm_jammer_can_retrigger"
+
+"MOVING TARGET"
+BASIC - "player_can_strafe_run"
+ACED - "player_can_free_run"
+
+--------------
+-- FUGITIVE --
+--------------
+-- FUGITIVE TIER 1
+"FUGITIVE UNLOCKER"
+BASIC - "first_aid_kit"
+
+"DARE DEVIL"
+BASIC - "player_climb_speed_multiplier_1"
+ACED - "player_on_zipline_dodge_chance"
+
+"HIDDEN BLADE"
+BASIC - "player_melee_concealment_modifier"
+ACED - "player_silent_kill"
+
+"THICK SKIN"
+BASIC - "player_damage_shake_addend"
+ACED - "player_level_2_armor_addend", "player_level_3_armor_addend", "player_level_4_armor_addend"
+
+-- FUGITIVE TIER 2
+"RUN AND GUN"
+BASIC - "player_movement_speed_multiplier"
+ACED - "player_steelsight_normal_movement_speed"
+
+"SIXTH SENSE"
+BASIC - "player_standstill_omniscience"
+ACED - "player_mask_off_pickup"
+
+"DUCK AND COVER"
+BASIC - "player_crouch_dodge_chance_1"
+ACED - "player_crouch_dodge_chance_2"
+
+-- FUGITIVE TIER 3
+"BROTHERS KEEPER"
+BASIC - "player_gangster_damage_dampener_1"
+ACED - "player_gangster_damage_dampener_2"
+
+"WINSTON WOLFE"
+BASIC - "player_extra_corpse_dispose_amount"
+ACED - "player_cleaner_cost_multiplier"
+
+"QUICK FIX"
+BASIC - "first_aid_kit_deploy_time_multiplier"
+ACED - "first_aid_kit_damage_reduction_upgrade"
+
+-- FUGITIVE TIER 4
+"SWAN SONG"
+BASIC - "temporary_berserker_damage_multiplier_1"
+ACED - "temporary_berserker_damage_multiplier_2", "player_berserker_no_ammo_cost"
+
+"UNDERTAKER"
+BASIC - "bodybags_bag"
+ACED - "bodybags_bag_quantity"
+
+"UPPERS"
+BASIC - "first_aid_kit_quantity_increase_1"
+ACED - "first_aid_kit_quantity_increase_2"
+
+-- FUGITIVE TIER 5
+"TRIGGER HAPPY"
+BASIC - "pistol_stacking_hit_expire_t_1", "pistol_stacking_hit_damage_multiplier"
+ACED - "pistol_stacking_hit_expire_t_2"
+
+"LOW BLOW"
+BASIC - "player_detection_risk_add_crit_chance_1"
+ACED - "player_detection_risk_add_crit_chance_2"
+
+"COUNTER-STRIKE"
+BASIC - "player_counter_strike_melee"
+ACED - "player_counter_strike_spooc"
+
+-- FUGITIVE TIER 6
+"BULLS EYE"
+BASIC - "player_headshot_regen_armor_bonus_1"
+ACED - "player_headshot_regen_armor_bonus_2"
+
+"SNEAKY BASTARD"
+BASIC - "player_detection_risk_add_dodge_chance_1"
+ACED - "player_detection_risk_add_dodge_chance_2"
+
+"AKIMBO"
+BASIC - {"jowi",
+		"x_1911",
+		"x_b92fs",
+		"x_deagle",
+		"x_g22c",
+		"x_g17",
+		"x_usp",
+		"akimbo_recoil_index_addend_1",
+		"akimbo_recoil_index_addend_2"}
+ACED - {"akimbo_extra_ammo_multiplier_1",
+		"akimbo_extra_ammo_multiplier_2",
+		"akimbo_recoil_index_addend_3"}
+
+]]

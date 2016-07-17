@@ -1,0 +1,159 @@
+------------------
+OVERKILL MOD 2.2 :
+------------------
+- 12/22/2015 (WOOHOO!)
+- Added more phrases (rick and morty)
+- Added Modified Carrystacker
+- Updated Anticheat (cheater tag)
+- Added Vehicle Spawning
+- Added Silently Secure Loot
+- Added Loot Spawning
+- Adding mission items also removes mission items
+- Updated Equipment Spawning (fully upgraded and no crashing)
+- Added Spawn Guard Notifications
+- Team AI can now be jailed
+- Team AI can now be released from jail
+- Team AI counter cloaker option in Extra Menu
+- Updated Alarm Trigger to be randomly blamed (i.e. Blackmailer, Gensec Guard Spots, Neighbor Calling)
+- Added Achievement Cheering to Troll Options
+- Added Infamy Theme to Troll Options
+- Added Teleportation Menu
+- Added Teleporting to Teammates
+- Updated Contract Menu to Dialog Menu Style
+- Changed Dialog Menu Settings to 18 Length
+- Added User Settings at top of _ovk_core.lua file
+- Included unfinished UnitID Scanner (not ready for full release)
+- Added Instant Flashlight Settings to BLT Menu (does not need game restart)
+- Added Instant Laserlight Settings to BLT Menu (does not need game restart)
+------------------
+OVERKILL MOD 2.1 :
+------------------
+- Santa's Workshop Update
+- Disabled Xray on Santa's Workshop
+- Updated Timebutton for vehicles
+- Fixed Mistake for "C002" of the Diamond Puzzle Waypoint (Exists in Multi-state not All-in-one)
+---------------------------
+OVERKILL MOD 2.0d (FIXES) :
+---------------------------
+- Deleted Disturbing the Peace from BLT MENU OPTIONS (Causing crash issues)
+- Disturbing the Peace moved back to Post Require
+- Moved Lazyozzy's interact script fromt PR to globals (possible crash issue)
+
+- Fixed APPLE toggle to deactivate and activate cheats
+- Updated 'Lockpick all doors' to include Golden Grin Casino lockers
+- Added Baby Deagle and Platypus to weapondata
+
+- Updated Timebutton for Birth of the Sky
+	- You can now save point anywhere
+	- Continuous free falling to hit your mark (I think I seen this in a movie or cartoon)
+
+------------------
+OVERKILL MOD 2.0 :
+------------------
+- Added a BLT MENU to allow users to edit configurations
+	- DLC Unlocker
+	- Skin Unlocker
+	- Fast Masking
+	- LMG iron sights
+	- Single/FullAuto Modes
+	- Drill Autorepair
+	- XP Heat
+	- Steam StatBlocker
+
+- Added Change Armor to INVENTORY MENU.
+- Added shooting through the bots.
+- Reorganized Menu System and added checks to prevent crashing (SimpleMenu to DialogMenu).
+	- Host Only Scripts are now hidden when playing as client (cleaner, user friendly).
+- Updated Zephirot's Waypoint (just presentation).
+	- Added Slaughterhouse
+	- Added Aftershock
+	- Added Beneath the Mountain
+	- Added Birth of the Sky
+	- Removed Security Access Waypoints.
+- Added New Contact Locke to Job Menu and Contract Selector Menu
+- Added a easter egg to MONEY MENU in Lobby mode (activate MONEY MENU in game lobby).
+- Added randomness to CONTENT MENU in character screen. Just having some fun.
+- Removed Haunted House from mission selector. 
+- Fixed Broken Scripts.
+	- Free Contracts
+- Added a check to Chain Escape
+	- Added mandatory_loot requirement check (dirty fix).
+- Added missing ChatExtend file by Aiirix.
+- Added DIALOG.Lua by Hejoro to record Bain's Dialog.
+	- Togglable and displays the map and dialog info when enabled.
+	- Added check from interfering with dialog manager when cooking meth.
+- Updated DATA.Lua to prevent mission element from being written twice.
+- Switched few Toggables to a new style based on LazyOzzy's ammo script.
+	- var = not (var or false)
+- Updated _APPLE (activates the trainer) to undo all active toggled cheats when deactivated.
+	- Exception was made for 'Shutdown Guard AI' (modified Lobotomy script).
+	- To prevent stealth fails due to accidental deactivation.
+- Added Recoil, Spread, and Firerate scripts by various authors (Sirgoodsmoke, B1313, Gir489).
+	- toggleable and excludes shotguns (combined Gir489's and B1313's versions).
+- Modified Sirgoodsmoke's Ultimate Kill script to try out BLT Delay functions. 
+	- In EXTRA MENU, it's called 'Orbital Strike'.
+- Added LazyOzzy's Sentry Logic script, to ignore shields.
+- Added a NEW FEATURE called ChatFilter based on LazyOzzy's PocoHUD filter script. 
+	- When a drill breaks... simply type a COMMAND in chat to fix.
+	- Whether you are a CLIENT or HOST. ANYONE can type the command.
+	- Following phrases added to fix the drill:
+		broke dick piece of shit drill
+		piece of shit drill
+		fucking drill
+	- HoxHud's Hoxtalicious!!! was also added to make civilians dance
+	- Same rules apply as HoxHud, USER has to be HOST for this to work for EVERYONE.
+- Added time button (experimental)
+- Added LMG scripts
+
+---------------------------------------------
+OVERKILL MOD 1.0 : RELEASE @ UNKNOWNCHEATS.ME
+---------------------------------------------
+Bflat (Compilation author)
+
+
+-------------
+-- CREDITS -- 
+-------------
+[SOURCE RELEASES]
+	YaPh1l (CURRENT)
+	90e
+	420MuNkEy
+	gir489
+	SquareOne
+[SPECIAL CREDITS]
+	LazyOzzy* (Interaction Toggles, Chatfilter, Sentry Gun, etc.)
+	Sirgoodsmoke* (MVP Trainer, Force Skills, etc. )
+	zephirot* (Waypoint)
+	baldwin (OrigBackuper)
+	B1313 (Mission Selector)
+	Harfatus (SimpleMenu)
+	hejoro (Superficial Trainer)
+	acepilot1023978 (overdrill activator)
+	droidaka (Bot tweaks, Drill Protection)
+	Slynderdale (updated xray)
+	Subsimple (LMG bipod)
+	Kiwhali (updated code snippets)
+	KarateF22 (weapon stats, creator of PD2's Efficient Weapons guide)
+	Frankelstner (skin StatBoost, creator of Really Long Guide)
+	topfpflanzen-wuerger (BLT BotWeapons)
+	Iron Predator (LMG ironsight values)
+	Simplity (Skin Unlocker)
+
+[CREDITS]
+	Transcend (code snippets)
+	RabidFubar (code snippets)
+	Mikethemak (code snippets)
+	Yanrishatum (original xray author)
+	topfpflanzen-wuerger (BLT BotWeapon)
+	brandolfPitler (disturbing the peace)
+	aiirik (extend chatbox)
+	Kidney (silently secure)
+	Dotcom7 (offshore casino, crimenet job spawner)
+	DeadMansChest (saw damage)
+	ReaperTeh (cloaker counter)
+	Soggy Piggy (free favors)
+	pierredjays (music menu, warp script)
+	MWisBest (nil trainer, luac guide)
+	Almir Listo (source for quotes)
+	OVERKILL
+	

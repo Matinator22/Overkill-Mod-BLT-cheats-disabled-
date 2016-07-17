@@ -1,0 +1,80 @@
+{
+	"ovk_menu_title":"overkill mod options"
+	"ovk_menu_desc":"select your preferred configuration.\n you're now entering, the danger zone."
+	
+	"fastmask_title":"fast mask"
+	"fastmask_desc":"equip your mask faster."
+	
+	"firemode_title":"firing mode"
+	"firemode_desc":"single fire and auto fire will no longer be locked by either attached custom mod."
+	
+	"autorepair_title":"drill autorepair"
+	"autorepair_desc":"100% autorepair chance, if technician skill \'hardware expert\' is aced."
+	
+	"xpheat_title":"15% bonus job heat"
+	"xpheat_desc":"gives maximum experience heat for all contracts."
+	
+	"laserColor_title":"laser color"
+	"laserColor_desc":"select desired laser color. change will take place immediately."
+	"laserColor_default":"default"
+	"laserColor_red":"red"
+	"laserColor_blue":"blue"
+	"laserColor_yellow":"yellow"
+	"laserColor_white":"white"
+	"laserColor_purple":"purple"
+	"laserColor_rainbow":"rainbow"
+	
+	"flashColor_title":"flashlight color"
+	"flashColor_desc":"select desired flashlight color. change will take place immediately."
+	"flashColor_default":"white"
+	"flashColor_red":"red"
+	"flashColor_blue":"blue"
+	"flashColor_yellow":"yellow"
+	"flashColor_green":"green"
+	"flashColor_purple":"purple"
+	"flashColor_rainbow":"rainbow"
+	
+	"flashRange_title":"flashlight power"
+	"flashRange_desc":"select desired flashlight power. change will take place immediately."
+	"flashRange_default":"normal"
+	"flashRange_high":"high beam"
+	
+	"dlc_title":"dlc unlocker"
+	"dlc_desc":"blocks dlc advertisements by unlocking dlcs. restart recommended."
+	
+	"skin_title":"skin unlocker"
+	"skin_desc":"unlocks all weapon skins. restart recommended."
+	
+	"spoof_title":"infamy spoofer"
+	"spoof_desc":"select desired infamy level to spoof (experimental). fakes your infamy level and sends it to players when joining a server. you will not see the change."
+	"spoof_default":"default"
+	"spoof_i5":"infamy 5"
+	"spoof_i10":"infamy 10"
+	"spoof_i12":"infamy 12"
+	"spoof_i15":"infamy 15"
+	"spoof_i18":"infamy 18"
+	"spoof_i20":"infamy 20"
+	"spoof_i24":"infamy 24"
+	"spoof_i25":"infamy 25"
+	
+	"stats_title":"steam stat blocker"
+	"stats_desc":"blocks statistical data (masks used, weapons fired, and maps played) being sent to steam and fbi files while this is active. restart recommended."
+	"stats_default":"disable"
+	"stats_on":"enable"
+	
+	"rpk_vf_title":"rpk ironsight"
+	"rpk_vf_desc":"use iron sights when aiming down sights (ads)."
+
+	"m249_vf_title":"ksp ironsight"
+	"m249_vf_desc":"use iron sights when aiming down sights (ads)."
+	
+	"buzz_vf_title":"buzzsaw ironsight"
+	"buzz_vf_desc":"use iron sights when aiming down sights (ads)."
+	
+	"par_vf_title":"ksp-58 ironsight"
+	"par_vf_desc":"use iron sights when aiming down sights (ads)."
+
+	"bren_vf_title":"brenner-21 ironsight"
+	"bren_vf_desc":"use iron sights when aiming down sights (ads)."
+	
+}

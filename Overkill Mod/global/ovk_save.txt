@@ -1,0 +1,1 @@
+{"autorepair":false,"stats":2,"flashColor":1,"skin":false,"xpheat":false,"flashRange":2,"spoof":1,"dlc":true}

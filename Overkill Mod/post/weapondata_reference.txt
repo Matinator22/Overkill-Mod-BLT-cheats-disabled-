@@ -1,0 +1,372 @@
+-----------------------------------------------
+-- THE BIG FKING REFERENCE GUIDE FOR WEAPONS --
+--             by OVERKILL                   --
+--     ALPHABETIZED BECAUSE FUCK YOU         --  
+-----------------------------------------------
+-- UPDATE 92.1 (POINT BREAK/XMAS UPDATE)     --
+-- OVERKILL MOD 2.1                          --
+-----------------------------------------------
+-- AK
+self.ak74.armor_piercing_chance = 0
+self.ak74.can_shoot_through_enemy = false
+self.ak74.can_shoot_through_wall = false
+self.ak74.can_shoot_through_shield = false
+
+-- AK.762
+self.akm.armor_piercing_chance = 0.7
+self.akm.can_shoot_through_enemy = true
+self.akm.can_shoot_through_wall = true
+self.akm.can_shoot_through_shield = false
+self.akm_gold.armor_piercing_chance = 0.7
+self.akm_gold.can_shoot_through_enemy = true
+self.akm_gold.can_shoot_through_wall = true
+self.akm_gold.can_shoot_through_shield = false
+
+-- AK5
+self.ak5.armor_piercing_chance = 0
+self.ak5.can_shoot_through_enemy = false
+self.ak5.can_shoot_through_wall = false
+self.ak5.can_shoot_through_shield = false
+
+-- AKIMBO BERNETTI 9
+self.x_b92fs.armor_piercing_chance = 0
+self.x_b92fs.can_shoot_through_enemy = false
+self.x_b92fs.can_shoot_through_wall = false
+self.x_b92fs.can_shoot_through_shield = false
+
+-- AKIMBO CHIMANO 88
+self.x_g17.armor_piercing_chance = 0
+self.x_g17.can_shoot_through_enemy = false
+self.x_g17.can_shoot_through_wall = false
+self.x_g17.can_shoot_through_shield = false
+
+-- AKIMBO CHIMANO COMPACT
+self.jowi.armor_piercing_chance = 0
+self.jowi.can_shoot_through_enemy = false
+self.jowi.can_shoot_through_wall = false
+self.jowi.can_shoot_through_shield = false
+
+-- AKIMBO CHIMANO CUSTOM
+self.x_g22c.armor_piercing_chance = 0.3
+self.x_g22c.can_shoot_through_enemy = true
+self.x_g22c.can_shoot_through_wall = false
+self.x_g22c.can_shoot_through_shield = false
+
+-- AKIMBO CROSSKILL
+self.x_1911.armor_piercing_chance = 0.5
+self.x_1911.can_shoot_through_enemy = true
+self.x_1911.can_shoot_through_wall = true
+self.x_1911.can_shoot_through_shield = false
+
+-- Akimbo INTERCEPTOR 45
+self.x_usp.armor_piercing_chance = 0.3
+self.x_usp.can_shoot_through_enemy = true
+self.x_usp.can_shoot_through_wall = false
+self.x_usp.can_shoot_through_shield = false
+
+-- AMCAR
+self.amcar.armor_piercing_chance = 0
+self.amcar.can_shoot_through_enemy = false
+self.amcar.can_shoot_through_wall = false
+self.amcar.can_shoot_through_shield = false
+
+-- AMR-16
+self.m16.armor_piercing_chance = 0.9
+self.m16.can_shoot_through_enemy = true
+self.m16.can_shoot_through_wall = false
+self.m16.can_shoot_through_shield = false
+
+-- BABY DEAGLE (aka Sparrow)
+self.sparrow.armor_piercing_chance = 1
+self.sparrow.can_shoot_through_enemy = true
+self.sparrow.can_shoot_through_wall = false
+self.sparrow.can_shoot_through_shield = true
+
+-- BERNETTI 9
+self.b92fs.armor_piercing_chance = 0
+self.b92fs.can_shoot_through_enemy = false
+self.b92fs.can_shoot_through_wall = false
+self.b92fs.can_shoot_through_shield = false
+
+-- BLASTER 9mm
+self.tec9.armor_piercing_chance = 0
+self.tec9.can_shoot_through_enemy = false
+self.tec9.can_shoot_through_wall = false
+self.tec9.can_shoot_through_shield = false
+
+-- BRENNER
+self.hk21.armor_piercing_chance = 0.7
+self.hk21.can_shoot_through_enemy = true
+self.hk21.can_shoot_through_wall = false
+self.hk21.can_shoot_through_shield = false
+
+-- BRONCO .44
+self.new_raging_bull.armor_piercing_chance = 1
+self.new_raging_bull.can_shoot_through_enemy = true
+self.new_raging_bull.can_shoot_through_wall = true
+self.new_raging_bull.can_shoot_through_shield = false
+
+-- BROOMSTICK
+self.c96.armor_piercing_chance = 0.5
+self.c96.can_shoot_through_enemy = true
+self.c96.can_shoot_through_wall = true
+self.c96.can_shoot_through_shield = false
+
+-- CAR-4
+self.new_m4.armor_piercing_chance = 0
+self.new_m4.can_shoot_through_enemy = false
+self.new_m4.can_shoot_through_wall = false
+self.new_m4.can_shoot_through_shield = false
+
+-- CAVITY 9mm
+self.sub2000.armor_piercing_chance = 0
+self.sub2000.can_shoot_through_enemy = false
+self.sub2000.can_shoot_through_wall = false
+self.sub2000.can_shoot_through_shield = false
+
+-- CHICAGO TYPEWRITER
+self.m1928.armor_piercing_chance = 0.3
+self.m1928.can_shoot_through_enemy = true
+self.m1928.can_shoot_through_wall = false
+self.m1928.can_shoot_through_shield = false
+
+-- CHIMANO 88
+self.glock_17.armor_piercing_chance = 0
+self.glock_17.can_shoot_through_enemy = false
+self.glock_17.can_shoot_through_wall = false
+self.glock_17.can_shoot_through_shield = false
+
+-- CHIMANO COMPACT
+self.g26.armor_piercing_chance = 0
+self.g26.can_shoot_through_enemy = false
+self.g26.can_shoot_through_wall = false
+self.g26.can_shoot_through_shield = false
+
+-- CHIMANO CUSTOM
+self.g22c.armor_piercing_chance = 0.3
+self.g22c.can_shoot_through_enemy = true
+self.g22c.can_shoot_through_wall = false
+self.g22c.can_shoot_through_shield = false
+
+-- CLARION
+self.famas.armor_piercing_chance = 0
+self.famas.can_shoot_through_enemy = false
+self.famas.can_shoot_through_wall = false
+self.famas.can_shoot_through_shield = false
+
+-- CMP
+self.mp9.armor_piercing_chance = 0
+self.mp9.can_shoot_through_enemy = false
+self.mp9.can_shoot_through_wall = false
+self.mp9.can_shoot_through_shield = false
+
+-- COBRA
+self.scorpion.armor_piercing_chance = 0
+self.scorpion.can_shoot_through_enemy = false
+self.scorpion.can_shoot_through_wall = false
+self.scorpion.can_shoot_through_shield = false
+
+-- COMPACT-5
+self.new_mp5.armor_piercing_chance = 0
+self.new_mp5.can_shoot_through_enemy = false
+self.new_mp5.can_shoot_through_wall = false
+self.new_mp5.can_shoot_through_shield = false
+
+-- CROSSKILL
+self.colt_1911.armor_piercing_chance = 0.5
+self.colt_1911.can_shoot_through_enemy = true
+self.colt_1911.can_shoot_through_wall = true
+self.colt_1911.can_shoot_through_shield = false
+
+-- DEAGLE
+self.deagle.armor_piercing_chance = 1
+self.deagle.can_shoot_through_enemy = false
+self.deagle.can_shoot_through_wall = false
+self.deagle.can_shoot_through_shield = false
+
+-- EAGLE HEAVY
+self.scar.armor_piercing_chance = 0.9
+self.scar.can_shoot_through_enemy = true
+self.scar.can_shoot_through_wall = true
+self.scar.can_shoot_through_shield = true
+
+-- FALCON
+self.fal.armor_piercing_chance = 0.7
+self.fal.can_shoot_through_enemy = true
+self.fal.can_shoot_through_wall = true
+self.fal.can_shoot_through_shield = false
+
+-- GECKO 7.62
+self.galil.armor_piercing_chance = 0.7
+self.galil.can_shoot_through_enemy = true
+self.galil.can_shoot_through_wall = true
+self.galil.can_shoot_through_shield = false
+
+-- GEWEHR 3
+self.g3.armor_piercing_chance = 1
+self.g3.can_shoot_through_enemy = true
+self.g3.can_shoot_through_wall = true
+self.g3.can_shoot_through_shield = true
+
+-- GRUBER KURZ
+self.ppk.armor_piercing_chance = 0
+self.ppk.can_shoot_through_enemy = false
+self.ppk.can_shoot_through_wall = false
+self.ppk.can_shoot_through_shield = false
+
+-- INTERCEPTOR 45
+self.usp.armor_piercing_chance = 0.3
+self.usp.can_shoot_through_enemy = true
+self.usp.can_shoot_through_wall = false
+self.usp.can_shoot_through_shield = false
+
+-- JACKET's PIECE
+self.cobray.armor_piercing_chance = 0
+self.cobray.can_shoot_through_enemy = false
+self.cobray.can_shoot_through_wall = false
+self.cobray.can_shoot_through_shield = false
+
+-- JP36
+self.g36.armor_piercing_chance = 0
+self.g36.can_shoot_through_enemy = false
+self.g36.can_shoot_through_wall = false
+self.g36.can_shoot_through_shield = false
+
+-- KOBUS 90
+self.p90.armor_piercing_chance = 0
+self.p90.can_shoot_through_enemy = false
+self.p90.can_shoot_through_wall = false
+self.p90.can_shoot_through_shield = false
+
+-- KRINKOV
+self.akmsu.armor_piercing_chance = 0.7
+self.akmsu.can_shoot_through_enemy = true
+self.akmsu.can_shoot_through_wall = true
+self.akmsu.can_shoot_through_shield = false
+
+-- KSP
+self.m249.armor_piercing_chance = 0.3
+self.m249.can_shoot_through_enemy = true
+self.m249.can_shoot_through_wall = false
+self.m249.can_shoot_through_shield = false
+
+-- LEO
+self.hs2000.armor_piercing_chance = 0.3
+self.hs2000.can_shoot_through_enemy = true
+self.hs2000.can_shoot_through_wall = false
+self.hs2000.can_shoot_through_shield = false
+
+-- LION's ROAR
+self.vhs.armor_piercing_chance = 0
+self.vhs.can_shoot_through_enemy = false
+self.vhs.can_shoot_through_wall = false
+self.vhs.can_shoot_through_shield = false
+
+-- M308
+self.new_m14.armor_piercing_chance = 1
+self.new_m14.can_shoot_through_enemy = true
+self.new_m14.can_shoot_through_wall = true
+self.new_m14.can_shoot_through_shield = true
+
+-- MARK 10
+self.mac10.armor_piercing_chance = 0
+self.mac10.can_shoot_through_enemy = false
+self.mac10.can_shoot_through_wall = false
+self.mac10.can_shoot_through_shield = false
+
+-- MATEVER .357
+self.mateba.armor_piercing_chance = 0.6
+self.mateba.can_shoot_through_enemy = true
+self.mateba.can_shoot_through_wall = true
+self.mateba.can_shoot_through_shield = false
+
+-- PARA
+self.olympic.armor_piercing_chance = 0
+self.olympic.can_shoot_through_enemy = false
+self.olympic.can_shoot_through_wall = false
+self.olympic.can_shoot_through_shield = false
+
+-- PATCHETT L2A1
+self.sterling.armor_piercing_chance = 0.3
+self.sterling.can_shoot_through_enemy = true
+self.sterling.can_shoot_through_wall = false
+self.sterling.can_shoot_through_shield = false
+
+-- PEACEMAKER .45
+self.peacemaker.armor_piercing_chance = 0.6
+self.peacemaker.can_shoot_through_enemy = true
+self.peacemaker.can_shoot_through_wall = true
+self.peacemaker.can_shoot_through_shield = false
+
+-- PLAINSRIDER BOW
+self.plainsrider.armor_piercing_chance = 1
+
+-- PLATYPUS 70 (AKA MODEL70)
+self.model70.armor_piercing_chance = 1
+self.model70.can_shoot_through_enemy = true
+self.model70.can_shoot_through_wall = true
+self.model70.can_shoot_through_shield = true
+
+-- QUEEN'S WRATH
+self.l85a2.armor_piercing_chance = 0
+self.l85a2.can_shoot_through_enemy = false
+self.l85a2.can_shoot_through_wall = false
+self.l85a2.can_shoot_through_shield = false
+
+-- RPK
+self.rpk.armor_piercing_chance = 0.7
+self.rpk.can_shoot_through_enemy = true
+self.rpk.can_shoot_through_wall = false
+self.rpk.can_shoot_through_shield = false
+
+-- SIGNATURE .40
+self.p226.armor_piercing_chance = 0.3
+self.p226.can_shoot_through_enemy = true
+self.p226.can_shoot_through_wall = false
+self.p226.can_shoot_through_shield = false
+
+-- SPECOPS
+self.mp7.armor_piercing_chance = 0
+self.mp7.can_shoot_through_enemy = false
+self.mp7.can_shoot_through_wall = false
+self.mp7.can_shoot_through_shield = false
+
+-- STRYK 18C
+self.glock_18c.armor_piercing_chance = 0
+self.glock_18c.can_shoot_through_enemy = false
+self.glock_18c.can_shoot_through_wall = false
+self.glock_18c.can_shoot_through_shield = false
+
+-- SWEDISH K
+self.m45.armor_piercing_chance = 0
+self.m45.can_shoot_through_enemy = false
+self.m45.can_shoot_through_wall = false
+self.m45.can_shoot_through_shield = false
+
+-- UAR
+self.aug.armor_piercing_chance = 0
+self.aug.can_shoot_through_enemy = false
+self.aug.can_shoot_through_wall = false
+self.aug.can_shoot_through_shield = false
+
+-- UZI
+self.uzi.armor_piercing_chance = 0.3
+self.uzi.can_shoot_through_enemy = true
+self.uzi.can_shoot_through_wall = false
+self.uzi.can_shoot_through_shield = false
+
+-- VALKYRIE
+self.asval.armor_piercing_chance = 0
+self.asval.can_shoot_through_enemy = false
+self.asval.can_shoot_through_wall = false
+self.asval.can_shoot_through_shield = false
+
+-- VULCAN MINIGUN
+self.m134.armor_piercing_chance = 0.75
+self.m134.can_shoot_through_enemy = true
+self.m134.can_shoot_through_wall = true
+self.m134.can_shoot_through_shield = false
+
+--------------------------------------------
+-- PAST THIS LINE THERE'S FUCKING NOTHING --
+--------------------------------------------
